@@ -1,0 +1,50 @@
+/*פה קובעים את העיצוב לכל האפליקצייה*/
+
+.background {
+  background-color: #b43434; /* ניתן להחליף בכל צבע שתרצה */
+  background: linear-gradient(135deg, #6aff00b8, #0831ff);
+  min-height: 100vh; /* גובה הדף כולו */
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: bold;
+  font-family:'Oxygen';
+  text-shadow: 2px 2px 4px rgba(1, 0, 0, 0.4);
+}
+
+.subtitle {
+  color: #ffffff;
+  font-size: 24px;
+  font-family:'Oxygen';
+  text-shadow: 2px 2px 4px rgba(1, 0, 0, 0.4);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
